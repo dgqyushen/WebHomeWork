@@ -1,0 +1,12 @@
+body{
+    background: url("image/dxs.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.test1{
+    width: 300px;
+    height: 650px;
+    margin: 100px auto;
+    background: aliceblue;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+body,form,input{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+form{
+    width: 300px;
+    height: 135px;
+    padding-top: 15px;
+    margin: 50px auto;
+    background: #DCF5FA;
+}
+
+p{
+    width: 273px;
+    height: 24px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+span{
+    display: inline-block;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.num,.pass{
+    width: 152px;
+    height: 18px;
+    border: 1px solid #38a1bf;
+    padding: 2px 2px 2px 22px;
+}
+
+.btn{
+    display: inline-block;
+    width: 87px;
+    height: 24px;
+    margin: 10px 0 10px 101px;
+
+}

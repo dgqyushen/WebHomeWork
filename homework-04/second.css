@@ -1,0 +1,80 @@
+body{
+    font-size: 12px;
+    background-color: #38a1bf;
+}
+
+body,h2,form,img,input,select,textarea{
+    padding: 0; margin: 0;
+    list-style: none;
+    /*border: none;*/
+}
+
+.all{
+    width: 1024px;
+    height: 863px;
+    margin: 0 auto;
+}
+
+.list{
+    width: 685px;
+    padding: 180px 0 0 340px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 38px;
+    color: #26211e;
+    margin-bottom: 60px;
+    padding-left: 50px;
+}
+
+.txt,.age{
+    width: 360px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 40px;
+    color: #ccc;
+}
+
+.choose{
+    width: 390px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #FFF;
+    padding: 5px 0 0 10px;
+}
+
+.choose,.money{
+    width: 190px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.money{
+    color: #ddd;
+}
+
+.money_box span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.message{
+    width: 390px;
+    height: 80px;
+    padding: 5px 0 0 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.btn{
+    width: 390px;
+    height: 30px;
+    background-color: #eb6854;
+    color: #FFF;
+    font-weight: bold;
+}

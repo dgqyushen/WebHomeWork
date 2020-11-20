@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css控制表单</title>
+    <script src="../lib/vue.js"></script>
+    <style>
+        @import "first.css";
+
+    </style>
+</head>
+<body>
+
+<div id="app">
+    {{message}}
+</div>
+
+<form action="#" method="post">
+    <p>
+        <span class="left">账号</span>
+        <input type="text" value="itcast" class="num">
+    </p>
+
+    <p>
+        <span class="left">密码</span>
+        <input type="password" class="pass">
+    </p>
+
+    <p>
+        <input type="button" class="btn" value="提交">
+    </p>
+</form>
+
+<script>
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            message:"Hello Vue!"
+        }
+    });
+</script>
+
+</body>
+</html>

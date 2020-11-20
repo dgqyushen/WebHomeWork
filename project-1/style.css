@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+/*整体控制*/
+body,ul,h1{margin:0;padding:0; list-style:none;}
+a:link,a:visited{text-decoration:none;}
+img{border:0;} /*IE6~10 Fix*/
+body{background:#F1F1F1;}
+/* 焦点图切换 */
+.banner{background:url("images/bg_banner.jpg");width:645px;height:auto;}
+.banner .top{background:url("images/indextop.jpg");width:645px;height:10px;}
+.banner .bottom{background:url("images/indexbottom.jpg");width:645px;height:10px;}
+.banner .box{width:625px;position:relative;}
+#SwitchBigPic{margin-left: 12px;border: 1px solid #ddd;}
+#SwitchBigPic span{display:none;}
+#SwitchBigPic img{width:422px;height:285px;}
+#SwitchBigPic .sp{display:block;}
+#SwitchNav{left:427px;width:210px;position:absolute;top:0;}
+#SwitchNav li{background:url("images/tabs_bg.gif");width:215px;height:95px;margin-bottom:1px;}
+#SwitchNav a{display:block;color:#444444;font-size:14px;padding-left:18px;padding-top:10px;width:204px;height:95px;}
+#SwitchNav a:hover{background:url("images/tab_current_bgd.gif") no-repeat left top;;color:#fff;}
+#SwitchNav span{display:block;width:189px;font-size:14px;font-weight:700;line-height:18px;margin-bottom:4px;}
+/*校园环境展示*/
+h1{font-size:18px;color:#0066ff;margin-bottom:10px;}
+.clear{clear:both;}
+.box1{width:595px;background-color:#fff;border:1px solid #ddd;margin:5px 0 0 6px; padding:20px;}
+.imgbox{width:595px;font-size:0px;white-space: nowrap;overflow:hidden;}
+.imgbox img{width:126px; height:86px; border:1px #ccc solid; padding:2px;}
+.imgbox a{margin-right:20px;}
